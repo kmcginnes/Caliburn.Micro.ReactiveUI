@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2012/06/nuspec.xsd">
     <metadata>
         <id>Caliburn.Micro.ReactiveUI.WatchGuard</id>
-        <version>3.0.0</version>
+        <version>3.0.1</version>
 		<title>Caliburn.Micro.ReactiveUI.WatchGuard</title>
 		<authors>Damien Chaib, Kris McGinnes</authors>
 		<owners>Kris McGinnes</owners>
@@ -11,8 +11,8 @@
         <description>This library provides Caliburn.Micro screens and conductors rewritten to inherit from ReactiveUI ReactiveObject</description>
         <dependencies>
             <group>
-                <dependency id="reactiveui-core" version="6.0.3" />
-                <dependency id="Caliburn.Micro.Core" version="2.0.0" />
+                <dependency id="reactiveui-core" version="6.2.1.1" />
+                <dependency id="Caliburn.Micro.Core" version="2.0.1" />
             </group>
         </dependencies>
     </metadata>
