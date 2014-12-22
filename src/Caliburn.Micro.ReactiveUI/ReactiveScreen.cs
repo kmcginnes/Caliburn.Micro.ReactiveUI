@@ -6,7 +6,7 @@ namespace Caliburn.Micro.ReactiveUI
     /// <summary>
     ///   A base implementation of <see cref = "IScreen" />.
     /// </summary>
-    public class ReactiveScreen : ReactiveViewAware, IScreen, IChild
+    public class ReactiveScreen : ReactiveViewAware, Caliburn.Micro.IScreen, IChild
     {
         static readonly ILog Log = LogManager.GetLog(typeof(ReactiveScreen));
 
